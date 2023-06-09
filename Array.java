@@ -3,7 +3,7 @@ import java.util.*;
 //Count total set bits
 //Maximum AND Value
 //Gray to Binary equivalent
-public class array {
+public class Array {
     public static void main(String[] args) {
         int a[] = new int[] { 21, 22, 23, 24, 25 };
         // int a[]=new int[5];
