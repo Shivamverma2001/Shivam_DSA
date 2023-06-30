@@ -110,7 +110,7 @@ public class BinaryTreee {
         return leftNodes + rightNodes + 1;
     }
 
-    // O(n^2)
+    // O(n)
     public static int sumOfNodes(Node root) {
         if (root == null) {
             return 0;
@@ -132,6 +132,7 @@ public class BinaryTreee {
         }
     }
 
+    //O(n)
     public static TreeInfo diameter2(Node root) {
         if (root == null) {
             return new TreeInfo(0, 0);
@@ -151,6 +152,7 @@ public class BinaryTreee {
         return new TreeInfo(myHeight, myDiam);
     }
 
+    //O(n^2)
     public static int diameter(Node root) {
         if (root == null) {
             return 0;
